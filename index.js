@@ -70,7 +70,6 @@ app.use((err, req, res, next) => {
 
 app.listen(PORT, () => {
     console.log(`Your server is running on http://localhost:${PORT}`);
-    console.log(data);
   }
 );
 
